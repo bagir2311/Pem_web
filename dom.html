@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sample page</title>
+</head>
+<body>
+    <h1 class="hello">helo word</h1>
+    <p>this is a sempel paragraf</p>
+    <button id="triger">change conten</button>
+    <script>
+        const button = document.getElementById("trigger")
+        let title = document.getElementById("titel");
+        title.innerHTML = "DOM manipulating";
+        let heading = document.getElementsByClassName("hello");
+        heading[0].style.color = "blue";
+        let p = document.querySelector("p");
+        p.innerHTML = "selamat datang..";
+    </script>
+</body>
+</html>
